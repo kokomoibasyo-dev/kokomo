@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ここも - 学校に行けない日が、人生のスタートラインになる場所</title>
+
+  <!-- SEO -->
+  <meta name="description" content="不登校でも、そうじゃなくても。子どもが安心して過ごし、親が自分らしく働ける“学びと暮らしの第3の場所”ここもの紹介LPです。" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Zen Maru Gothic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: #fdf8ec; /* 和紙っぽいクリーム */
+      color: #433d3c; /* やわらかいダークブラウン */
+    }
+    .font-display {
+      font-family: 'Shippori Mincho', 'Zen Maru Gothic', serif;
+    }
+    .section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <!-- ヘッダー -->
+  <header class="sticky top-0 z-30 border-b border-amber-200/70 bg-[#fdf8ec]/80 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-2xl bg-emerald-100 flex items-center justify-center">
+          <span class="font-display text-lg text-emerald-700">こ</span>
+        </div>
+        <div>
+          <div class="font-display text-lg leading-tight">ここも</div>
+          <div class="text-xs text-neutral-500">子どもの「やってみたい」を育てる第3の場所</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-emerald-700">ここもについて</a>
+        <a href="#services" class="hover:text-emerald-700">できること</a>
+        <a href="#day" class="hover:text-emerald-700">1日の流れ</a>
+        <a href="#model" class="hover:text-emerald-700">学びのモデル</a>
+        <a href="#pricing" class="hover:text-emerald-700">料金と仕組み</a>
+        <a href="#contact" class="inline-flex items-center gap-1 rounded-full border border-emerald-500 px-4 py-1.5 text-emerald-700 text-xs font-medium bg-white/70 hover:bg-emerald-50">
+          見学・お問い合わせ
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Hero -->
+    <section class="section">
+      <div class="max-w-6xl mx-auto px-4 grid gap-10 md:grid-cols-2 items-center">
+        <div>
+          <p class="text-xs inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-emerald-700 mb-4">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            不登校×学び×家族支援のハイブリッド拠点
+          </p>
+          <h1 class="font-display text-3xl md:text-4xl leading-relaxed md:leading-relaxed mb-4">
+            学校に行けない日が、<br class="hidden sm:block" />
+            <span class="bg-gradient-to-r from-emerald-600 to-amber-600 bg-clip-text text-transparent">
+              「人生のスタートライン」
+            </span>
+            になる場所。
+          </h1>
+          <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-6">
+            不登校でも、そうじゃなくても。<br />
+            子どもが安心して過ごし、親が自分らしく働ける、学びと暮らしの第3の場所「ここも」。<br />
+            古民家をリノベーションした小さな拠点で、子どもの「やってみたい」と、親の「働きたい・休みたい」をそっと支えます。
+          </p>
+          <div class="flex flex-wrap gap-3 mb-3">
+            <a href="#contact" class="inline-flex justify-center items-center px-5 py-2.5 rounded-full text-sm font-medium bg-emerald-600 text-white shadow-sm hover:bg-emerald-700">
+              見学・説明会の予約
+            </a>
+            <a href="#pricing" class="inline-flex justify-center items-center px-4 py-2 rounded-full text-sm font-medium border border-emerald-600/70 text-emerald-700 bg-white/70 hover:bg-emerald-50">
+              料金と仕組みを見る
+            </a>
+            <a href="#partner" class="inline-flex justify-center items-center px-4 py-2 rounded-full text-xs font-medium border border-amber-500/70 text-amber-700 bg-amber-50/60 hover:bg-amber-100">
+              法人・協賛のご相談
+            </a>
+          </div>
+          <p class="text-xs text-neutral-500">
+            ※ 現在、プレオープン期間につき少人数での受け入れを行っています。
+          </p>
+        </div>
+
+        <!-- イメージエリア（プレースホルダー） -->
+        <div class="relative">
+          <div class="aspect-[4/3] rounded-3xl border border-amber-200 bg-gradient-to-br from-emerald-50 via-amber-50 to-sky-50 p-4 flex items-center justify-center shadow-sm">
+            <div class="w-full h-full rounded-2xl border border-dashed border-emerald-200 flex flex-col items-center justify-center text-xs text-neutral-500 px-6 text-center">
+              <p class="font-display text-base mb-2">ここもBASE イメージ</p>
+              <p class="mb-2">
+                古民家の畳の部屋でのんびり過ごす子ども、<br />
+                隣室でPCを開く親、庭で風にあたる人たち——。<br />
+                そんな光景が浮かぶようなビジュアルを入れてください。
+              </p>
+              <p>（ここにイラストや写真を差し替えてください）</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ここもについて -->
+    <section id="about" class="section border-t border-amber-200/60">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-4">ここもとは</h2>
+        <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-3">
+          「ここも」は、「学校に行けない」「学校に行かない」子どもたちと、その家族のための第3の場所です。<br />
+          教室の机に向かわなくても、人はちゃんと学び、育っていく。——そんな当たり前のことを、あらためて社会に示したくて、この場所をつくりました。
+        </p>
+        <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-3">
+          子どもには、安心して呼吸ができる時間と、自分の「好き」から世界とつながっていく経験を。<br />
+          親には、働き方や暮らしをととのえながら、子どもと一緒に前に進んでいける選択肢を。
+        </p>
+        <p class="text-sm md:text-base text-neutral-700 leading-relaxed">
+          私たちが大切にしているのは、「学びの主権を子どもへ」返していくこと。<br />
+          大人が用意した正解のコースに子どもを当てはめるのではなく、子ども自身の「ことば」と「やってみたい」から始まる学びを、そっと支えていきたいと考えています。
+        </p>
+      </div>
+    </section>
+
+    <!-- できること：二本柱 -->
+    <section id="services" class="section">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-6">ここもでできること</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- 子どもの学び -->
+          <div class="bg-white/80 border border-amber-200 rounded-3xl p-6 shadow-sm">
+            <h3 class="font-display text-lg mb-2">理念① 子どもの学びと育ちの支援</h3>
+            <p class="text-xs text-neutral-500 mb-4">不登校の子も、そうでない子も。「好き」から始まる学びの場。</p>
+            <ul class="space-y-2 text-sm text-neutral-700">
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>不登校の子どものための安心できる居場所（ここもBASE）</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>AI×家庭学習支援で「自分のペースで学ぶ力」を育てる</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>子どもガチ店長（マイクロ起業体験）による実社会接続の学び</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span>レッジョ・エミリアの「100のことば」から着想した、表現を大切にする活動</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 家族・在宅ワーク支援 -->
+          <div class="bg-white/80 border border-amber-200 rounded-3xl p-6 shadow-sm">
+            <h3 class="font-display text-lg mb-2">理念② 家族支援・在宅ワーク就労支援</h3>
+            <p class="text-xs text-neutral-500 mb-4">親が「生き方」と「働き方」をととのえることも、子どもの安心に直結します。</p>
+            <ul class="space-y-2 text-sm text-neutral-700">
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-amber-400"></span>
+                <span>親のためのコワーキングスペース（ここもBASE内）</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-amber-400"></span>
+                <span>在宅ワーク講座・スキルアップ講座と、実際の仕事につなげる伴走</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-amber-400"></span>
+                <span>父子参加のフラワーアレンジメントなど、家族の「共育」を支えるイベント</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 w-2 h-2 rounded-full bg-amber-400"></span>
+                <span>企業と連携した「不登校離職」を防ぐための支援モデルづくり</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ベネフィット -->
+    <section class="section bg-emerald-50/60 border-y border-emerald-100">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-6">ここもを選ぶ理由</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-display text-lg mb-2">子どもにとって</h3>
+            <ul class="space-y-2 text-sm text-neutral-700">
+              <li>・「行かなきゃ」ではなく、「いてもいい」と思える安全基地ができる</li>
+              <li>・ゲーム・好きなキャラクター・ものづくりなど、「好き」から学びが始まる</li>
+              <li>・他の子や大人とのほどよい距離感の関わりを通して、レジリエンスを育てる</li>
+              <li>・AIを上手に使いながら、「自分で学び方を選ぶ力」を身につけていける</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-display text-lg mb-2">親にとって</h3>
+            <ul class="space-y-2 text-sm text-neutral-700">
+              <li>・「働く」と「付き添う」を両立できる、新しい働き方の選択肢が増える</li>
+              <li>・一人で抱え込まず、同じような経験をした親や支援者とつながれる</li>
+              <li>・在宅ワークやスキルアップの機会を通じて、経済的不安を少しずつ減らせる</li>
+              <li>・子どもに「無理に戻さなきゃ」というプレッシャーではなく、「今を整える」視点を持てる</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1日の流れ -->
+    <section id="day" class="section">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-6">ここもの1日（イメージ）</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-sm text-neutral-700">
+          <div class="space-y-4">
+            <div class="flex gap-3">
+              <div class="mt-1 text-xs font-medium text-emerald-700 w-20">9:00</div>
+              <p>親子で登所。子どもはここもBASEでのんびりスタート。親はコワーキングスペースでPCを開いたり、ひと息ついたり。</p>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-1 text-xs font-medium text-emerald-700 w-20">10:30</div>
+              <p>子どもはAI×家庭学習や、興味のある本・制作活動へ。スタッフが「やってみたい」を拾いながら緩やかに伴走。</p>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-1 text-xs font-medium text-emerald-700 w-20">13:00</div>
+              <p>昼食・休憩タイム。お弁当を食べたり、ゴロゴロしたり、庭で外の空気を吸ったり。</p>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-1 text-xs font-medium text-emerald-700 w-20">14:00</div>
+              <p>子どもガチ店長のミーティングや、プロジェクト活動の日。マルシェ出店に向けてアイデアを形にしていく時間。</p>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-1 text-xs font-medium text-emerald-700 w-20">16:00</div>
+              <p>その日の振り返りを少しだけ。できたことも、できなかったことも、そのまま言葉にしてみる時間。</p>
+            </div>
+          </div>
+          <div class="bg-white/80 border border-amber-200 rounded-3xl p-5 shadow-sm">
+            <h3 class="font-display text-lg mb-3">親の1日も、ここからととのえる</h3>
+            <p class="mb-2">
+              仕事をしたり、情報収集をしたり、ときには何もしなかったり——。<br />
+              ここもBASEは、子どもだけでなく「親にとっての居場所」でもあります。
+            </p>
+            <p class="mb-2">
+              在宅ワークの相談や、働き方の整理、ちょっとした愚痴や不安も、同じ立場の人やスタッフと共有しながら、少しずつ前へ進んでいく。そんな時間も、大切な「学び」です。
+            </p>
+            <p class="text-xs text-neutral-500">
+              ※ 実際の時間割は、お子さんやご家庭の状況にあわせて柔軟に調整します。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 学びのモデル -->
+    <section id="model" class="section bg-white/70 border-y border-amber-200/70">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-6">ここも式・学びのモデル</h2>
+        <div class="grid md:grid-cols-3 gap-4 text-sm text-neutral-700">
+          <div class="rounded-2xl border border-emerald-100 bg-emerald-50/70 p-4">
+            <h3 class="font-display text-base mb-2">100のことば（レッジョ）</h3>
+            <p>子どもの「描く」「つくる」「動く」「黙っている」まで、すべてを「ことば」として尊重し、そこから学びを見つけていきます。</p>
+          </div>
+          <div class="rounded-2xl border border-emerald-100 bg-emerald-50/70 p-4">
+            <h3 class="font-display text-base mb-2">プロジェクト型学習（PBL）</h3>
+            <p>マルシェ出店や地域とのコラボなど、実際のプロジェクトを通して、「生きる力」を育てる学びの場にします。</p>
+          </div>
+          <div class="rounded-2xl border border-emerald-100 bg-emerald-50/70 p-4">
+            <h3 class="font-display text-base mb-2">モンテッソーリ / シュタイナー</h3>
+            <p>子どもの発達段階やリズムを尊重しながら、「選ぶ」「集中する」「味わう」時間を大切にします。</p>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4 mt-4 text-sm text-neutral-700">
+          <div class="rounded-2xl border border-sky-100 bg-sky-50/60 p-4">
+            <h3 class="font-display text-base mb-2">レジリエンス教育</h3>
+            <p>「うまくいかない経験」も含めて言葉にし、支え合いながら乗りこえていく力を、ワークや日々の関わりを通じて育みます。</p>
+          </div>
+          <div class="rounded-2xl border border-sky-100 bg-sky-50/60 p-4">
+            <h3 class="font-display text-base mb-2">AI×家庭学習モデル</h3>
+            <p>生成AIを「ズル」ではなく「相棒」として使いこなす力を育てながら、「AIに依存しすぎない」学びをデザインします。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 子どもガチ店長 -->
+    <section class="section">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-4">子どもガチ店長（マイクロ起業体験）</h2>
+        <p class="text-sm text-neutral-700 mb-4">
+          8〜10週間かけて、子どもたちが自分の「好き」や「得意」からお店をつくり、実際のマルシェに出店する本気のプログラムです。
+        </p>
+        <div class="grid md:grid-cols-3 gap-4 text-sm text-neutral-700">
+          <div class="rounded-2xl border border-amber-200 bg-white/80 p-4">
+            <h3 class="font-display text-base mb-2">Week 0〜2</h3>
+            <p>「好きの棚おろし」と「届けたい相手」を考える時間。売れるかどうかではなく、「これを誰かに渡したい」という気持ちからスタートします。</p>
+          </div>
+          <div class="rounded-2xl border border-amber-200 bg-white/80 p-4">
+            <h3 class="font-display text-base mb-2">Week 3〜6</h3>
+            <p>試作・値段の決定・ポップづくりなど、実際の準備を進めていきます。失敗もやり直しも含めて、プロセスを味わうことを大切にします。</p>
+          </div>
+          <div class="rounded-2xl border border-amber-200 bg-white/80 p-4">
+            <h3 class="font-display text-base mb-2">Week 7〜10</h3>
+            <p>地域マルシェでの本番出店と、ふりかえり。うまくいってもいかなくても、「やってみた自分」を誇れる時間にしていきます。</p>
+          </div>
+        </div>
+        <p class="text-xs text-neutral-500 mt-3">
+          ※ 本プログラムは、地域企業（例：株式会社松田FRP工業）とのパートナーシップのもと運営されます。
+        </p>
+      </div>
+    </section>
+
+    <!-- 空間紹介 -->
+    <section class="section bg-emerald-50/50 border-y border-emerald-100">
+      <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-6 items-start">
+        <div>
+          <h2 class="font-display text-2xl mb-4">ここもBASE（古民家拠点）</h2>
+          <p class="text-sm text-neutral-700 mb-2">
+            使われなくなった古民家をリノベーションして、「子ども」と「親」と「地域」がゆるやかにつながる拠点にします。
+          </p>
+          <p class="text-sm text-neutral-700 mb-2">
+            畳の部屋では、子どもが読書をしたり、ゲームをしたり、ものづくりをしたり。  
+            別室のコワーキングスペースでは、親が在宅ワークをしたり、資料を作ったり、ただぼーっと休んだり。
+          </p>
+          <p class="text-sm text-neutral-700 mb-2">
+            安全面にも配慮し、保険加入や消防との連携、避難経路の確保などを開所前に整えます。
+          </p>
+          <p class="text-xs text-neutral-500">
+            ※ 写真・イラストは現在準備中です。最新情報は見学・説明会にてご案内します。
+          </p>
+        </div>
+        <div class="aspect-[4/3] rounded-3xl border border-emerald-200 bg-gradient-to-br from-amber-50 via-emerald-50 to-sky-50 p-4 flex items-center justify-center shadow-sm">
+          <div class="w-full h-full rounded-2xl border border-dashed border-emerald-200 flex flex-col items-center justify-center text-xs text-neutral-500 px-6 text-center">
+            <p class="font-display text-base mb-2">古民家リノベーションのイメージ</p>
+            <p>ここに、外観や内観の写真・イラストを差し込んでください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 料金と仕組み -->
+    <section id="pricing" class="section">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-4">料金と仕組み</h2>
+        <p class="text-sm text-neutral-700 mb-4">
+          ここもは、「経済格差が学びの格差にならないように」という願いから、子ども・保護者の直接負担をできるかぎり抑えるモデルを目指しています。
+        </p>
+        <div class="grid md:grid-cols-3 gap-4 text-sm text-neutral-700">
+          <div class="rounded-2xl border border-emerald-200 bg-white/80 p-4">
+            <h3 class="font-display text-base mb-2">子どもの利用</h3>
+            <p class="mb-1">基本利用料：無料（予定）</p>
+            <p class="text-xs text-neutral-500">※ 詳細は助成金・協賛状況により変動する可能性があります。</p>
+          </div>
+          <div class="rounded-2xl border border-emerald-200 bg-white/80 p-4">
+            <h3 class="font-display text-base mb-2">保護者のコワーキング</h3>
+            <p>利用しやすい価格帯での月額プラン・ドロップインなどを調整中です。</p>
+          </div>
+          <div id="partner" class="rounded-2xl border border-amber-300 bg-amber-50/80 p-4">
+            <h3 class="font-display text-base mb-2">法人協賛プラン</h3>
+            <p class="mb-1">例）月 50,000円〜（モデル案）</p>
+            <ul class="text-xs space-y-1">
+              <li>・社員とその家族の利用枠の確保</li>
+              <li>・不登校離職の予防・メンタルケアの一助</li>
+              <li>・地域貢献・CSRとしての発信</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-xs text-neutral-500 mt-3">
+          ※ 上記はモデル案です。実際の料金・プランについては、見学・説明会またはお問い合わせにて個別にご案内します。
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section bg-white/70 border-y border-amber-200/70">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-6">よくある質問</h2>
+        <div class="space-y-4 text-sm text-neutral-700">
+          <div>
+            <p class="font-medium">Q. 不登校でなくても利用できますか？</p>
+            <p>A. はい、ご利用いただけます。「学校がしんどい」「教室以外の学び方も経験してみたい」など、さまざまな事情のお子さんが対象です。</p>
+          </div>
+          <div>
+            <p class="font-medium">Q. 勉強をしなくても大丈夫ですか？</p>
+            <p>A. 無理に勉強をさせることはありません。ただし、本人のタイミングがきたときに学びを再開できるよう、AI×家庭学習などの選択肢を用意しています。</p>
+          </div>
+          <div>
+            <p class="font-medium">Q. 親も必ず一緒にいないといけませんか？</p>
+            <p>A. 家庭の状況に応じて、付き添いあり・なしを柔軟に相談しながら決めていきます。</p>
+          </div>
+          <div>
+            <p class="font-medium">Q. 医療的サポートや専門的なカウンセリングは受けられますか？</p>
+            <p>A. 医療機関ではありませんので、診断・治療行為は行いません。必要に応じて、専門機関や相談窓口の情報提供・連携を行います。</p>
+          </div>
+          <div>
+            <p class="font-medium">Q. いつから利用開始できますか？</p>
+            <p>A. プレオープン〜本格オープンのスケジュールは、見学・説明会やSNS等で随時ご案内いたします。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ / CTA -->
+    <section id="contact" class="section">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-4">見学・お問い合わせ</h2>
+        <p class="text-sm text-neutral-700 mb-4">
+          ここもに関心をもってくださり、ありがとうございます。  
+          「まずは話だけ聞いてみたい」「子どもに合いそうか相談したい」「法人として協賛を検討したい」など、どんな入口でも大歓迎です。
+        </p>
+
+        <!-- ダミーのフォームUI -->
+        <div class="bg-white/80 border border-emerald-200 rounded-3xl p-5 shadow-sm space-y-4 text-sm">
+          <div>
+            <label class="block text-xs mb-1">お問い合わせ種別</label>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1.5 rounded-full border border-emerald-500/70 bg-emerald-50 text-emerald-700 text-xs">見学・説明会を希望</span>
+              <span class="px-3 py-1.5 rounded-full border border-neutral-300 text-neutral-600 text-xs">オンラインで話を聞きたい</span>
+              <span class="px-3 py-1.5 rounded-full border border-amber-400 text-amber-700 text-xs">法人・協賛について相談したい</span>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs mb-1">お名前</label>
+              <div class="w-full rounded-xl border border-neutral-300 bg-neutral-50/60 px-3 py-2 text-xs text-neutral-500">
+                お名前（ダミー入力欄）
+              </div>
+            </div>
+            <div>
+              <label class="block text-xs mb-1">メールアドレス</label>
+              <div class="w-full rounded-xl border border-neutral-300 bg-neutral-50/60 px-3 py-2 text-xs text-neutral-500">
+                mail@example.com（ダミー入力欄）
+              </div>
+            </div>
+          </div>
+          <div>
+            <label class="block text-xs mb-1">ご相談内容・メッセージ</label>
+            <div class="w-full rounded-xl border border-neutral-300 bg-neutral-50/60 px-3 py-6 text-xs text-neutral-500">
+              ここにメッセージが入るイメージです。（実際のフォームは別途実装してください）
+            </div>
+          </div>
+          <div class="flex justify-end">
+            <button class="px-5 py-2 rounded-full bg-emerald-600 text-white text-xs font-medium shadow-sm cursor-default">
+              送信イメージ
+            </button>
+          </div>
+        </div>
+        <p class="text-xs text-neutral-500 mt-3">
+          ※ このLP上のフォームはデザインサンプルです。実際のお問い合わせ方法（メールアドレス・フォームURLなど）は、運用に合わせて差し替えてください。
+        </p>
+      </div>
+    </section>
+
+    <!-- 代表メッセージ & 社会的意義 -->
+    <section class="section bg-emerald-50/70 border-y border-emerald-100">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="font-display text-2xl mb-4">代表メッセージ</h2>
+        <p class="text-sm text-neutral-700 leading-relaxed mb-2">
+          ここもは、人生のスタートラインです。
+        </p>
+        <p class="text-sm text-neutral-700 leading-relaxed mb-2">
+          不登校は、子どもにとっても、親にとっても、大きな迷いや不安を抱える出来事かもしれません。  
+          でも、だからこそ——ここから、人生をあらためて始められると信じています。
+        </p>
+        <p class="text-sm text-neutral-700 leading-relaxed mb-2">
+          子どもには、安心して過ごせる空間を。自分を癒し、興味や知識を育てる場を。  
+          そして、小さな経験を重ねながら、自分なりの「進み方」を見つけてほしい。
+        </p>
+        <p class="text-sm text-neutral-700 leading-relaxed mb-2">
+          親には、在宅ワークやスキルアップの機会を。  
+          経済的な不安から少しずつ解放され、「子どものために働き方を諦める」のではなく、「子どもと一緒に自分の未来を選べる」状況をつくっていきたい。
+        </p>
+        <p class="text-sm text-neutral-700 leading-relaxed mb-2">
+          私たちは「支える」けれど、「閉じる」ことはしません。  
+          子どもも親も、社会とのつながりの中で、自分らしく前に進めるように。  
+          ここもが、その新しいスタートの一歩となることを願っています。
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="bg-[#f5eedf] border-t border-amber-200 text-xs text-neutral-600">
+    <div class="max-w-6xl mx-auto px-4 py-6 grid md:grid-cols-3 gap-4">
+      <div>
+        <p class="font-display text-sm mb-1">ここも / ここもBASE</p>
+        <p>（仮）沖縄県南風原町●●●</p>
+        <p>Mail: info@example.com</p>
+      </div>
+      <div>
+        <p class="font-display text-sm mb-1">運営パートナー</p>
+        <p>株式会社 松田FRP工業（運営パートナー）</p>
+      </div>
+      <div>
+        <p class="font-display text-sm mb-1">公式アカウント</p>
+        <p>
+          <span class="underline">Instagram</span> ／
+          <span class="underline">note</span> ／
+          <span class="underline">YouTube</span>
+        </p>
+      </div>
+    </div>
+    <div class="border-t border-amber-200/70 text-center py-3 text-[11px] text-neutral-500">
+      © ここも BASE. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
